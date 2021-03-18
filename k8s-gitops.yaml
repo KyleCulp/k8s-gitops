@@ -8,5 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: ssh://github.com/KyleCulp/k8s-gitops.git
-
+  url: https://github.com/KyleCulp/k8s-gitops
