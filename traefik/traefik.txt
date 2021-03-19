@@ -1,3 +1,0 @@
-CF Key: $CF_API_KEY
-CF Token: $CF_API_TOKEN
-CF Email: $CF_API_EMAIL 

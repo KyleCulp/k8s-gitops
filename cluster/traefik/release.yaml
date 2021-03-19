@@ -3,7 +3,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: traefik
-  namespace: default
+  namespace: traefik
 spec:
   dependsOn:
     - name: cert-manager
@@ -31,6 +31,9 @@ spec:
       - "--certificatesResolvers.cloudflare.acme.dnschallenge=true"
       - "--certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare"
       - "--certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53"
+    env:
+      - name: TZ
+        value: America/Chicago
     persistence:
       enabled: true
       existingClaim: "traefik-certs-pvc"
@@ -69,7 +72,6 @@ spec:
                 - git.kyleculp.com
             - asicforecast: asicforecast.com
               sans:
-                - asicforecast.com
                 - bw.asicforecast.com
                 - traefik.asicforecast.com
   interval: 10m0s
