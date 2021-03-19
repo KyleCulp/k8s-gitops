@@ -3,10 +3,10 @@ kind: HelmRelease
 metadata:
   name: bitwardenrs
 spec:
-  releaseName: nginx-ingress-controller
+  releaseName: bitwardenrs
   chart:
     spec:
-      chart: nginx-ingress-controller
+      chart: bitwardenrs
       sourceRef:
         kind: HelmRepository
         name: k8s-at-home
