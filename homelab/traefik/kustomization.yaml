@@ -6,3 +6,4 @@ resources:
   - namespace.yaml
   - release.yaml
   - volume.yaml
+  - crds.yaml

@@ -71,4 +71,5 @@ spec:
               sans:
                 - asicforecast.com
                 - bw.asicforecast.com
+                - traefik.asicforecast.com
   interval: 10m0s
