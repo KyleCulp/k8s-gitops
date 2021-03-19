@@ -24,4 +24,4 @@ flux bootstrap github --verbose \
   --repository=k8s-gitops \
   --branch=master \
   --path=cluster \
-  --personal
+  --personal --token-auth
