@@ -5,3 +5,4 @@ namespace: flux-system
 resources:
   - bitnami.yaml
   - k8s-at-home.yaml
+  - openebs.yaml
