@@ -20,35 +20,35 @@ spec:
   values:
 
   interval: 5m0s
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
-metadata:
-  name: whoami
-  namespace: services
-spec:
-  entryPoints:
-    - web
-  routes:
-    - match: Host(`whoami.asicforecast.com`)
-      kind: Rule
-      services:
-        - name: whoami
-          port: 80
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
-metadata:
-  name: whoami-tls
-  namespace: services
-spec:
-  entryPoints:
-    - websecure
-  routes:
-    - kind: Rule
-      match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
-      services:
-        - name: whoami
-          port: 80
-  tls:
-    certResolver: cloudflare
+# ---
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: IngressRoute
+# metadata:
+#   name: whoami
+#   namespace: services
+# spec:
+#   entryPoints:
+#     - web
+#   routes:
+#     - match: Host(`whoami.asicforecast.com`)
+#       kind: Rule
+#       services:
+#         - name: whoami
+#           port: 80
+# ---
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: IngressRoute
+# metadata:
+#   name: whoami-tls
+#   namespace: services
+# spec:
+#   entryPoints:
+#     - websecure
+#   routes:
+#     - kind: Rule
+#       match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
+#       services:
+#         - name: whoami
+#           port: 80
+#   tls:
+#     certResolver: cloudflare
