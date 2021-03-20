@@ -21,7 +21,7 @@ spec:
     providers:
       kubernetesCRD:
         enabled: true
-        namespaces: ["services", "media", "devops"]
+        namespaces: ["services", "media", "devops", "traefik"]
     additionalArguments:
       - "--accesslog=true"
       - "--certificatesresolvers.cloudflare.acme.email=me@kyleculp.com"
