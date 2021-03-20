@@ -7,3 +7,4 @@ resources:
   # - volume.yaml
   # - dashboard.yaml
   - whoami.yaml
+  - whoami-route.yaml
