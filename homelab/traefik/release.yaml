@@ -22,7 +22,7 @@ spec:
       kubernetesCRD:
         enabled: true
         namespaces: ["services", "media", "devops", "traefik"]
-        allowCrossNamespace: true 
+        allowCrossNamespace: true
     additionalArguments:
       - --global.checknewversion=false
       - --global.sendanonymoususage=false
