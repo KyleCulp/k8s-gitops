@@ -23,6 +23,9 @@ spec:
         enabled: true
         namespaces: ["services", "media", "devops", "traefik"]
     additionalArguments:
+      - "--global.checknewversion=false"
+      - "--global.sendanonymoususage=false"
+      - "--api.insecure=true"
       - "--accesslog=true"
       - "--certificatesresolvers.cloudflare.acme.email=me@kyleculp.com"
       - "--certificatesresolvers.cloudflare.acme.storage=/data/acme.json"
@@ -34,6 +37,12 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
+    # ingressClass:
+    #   enabled: true
+    # isDefaultClass: "true"
+    ingressRoute:
+      dashboard:
+        enabled: true
     # persistence:
     #   enabled: true
     #   existingClaim: "traefik-cert-pvc"
@@ -74,4 +83,9 @@ spec:
               sans:
                 - bw.asicforecast.com
                 - traefik.asicforecast.com
-  interval: 10m0s
+    logs:
+      general:
+        level: INFO
+      access:
+        enabled: true
+  interval: 5m0s
