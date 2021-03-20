@@ -10,7 +10,6 @@ spec:
   chart:
     spec:
       chart: traefik
-      # renovate: registryUrl=https://helm.traefik.io/traefik
       version: 9.17.5
       sourceRef:
         kind: HelmRepository
