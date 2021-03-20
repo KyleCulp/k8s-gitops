@@ -36,5 +36,5 @@ k3s yaml config gave me permission error, so I just chmod 777'd that hoe and car
 # flux bootstrap command
 flux bootstrap github --verbose \
   --owner=kyleculp --repository=k8s-gitops \
-  --branch=master --path=cluster \
+  --branch=master --path=homelab \
   --personal --token-auth

@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: traefik
 resources:
   - namespace.yaml
-  - crds.yaml
+  # - crds.yaml
   - pvc.yaml
   - release.yaml
   - traefik-dashboard.yaml
