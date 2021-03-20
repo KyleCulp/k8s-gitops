@@ -23,23 +23,24 @@ spec:
         enabled: true
         namespaces: ["services", "media", "devops", "traefik"]
     additionalArguments:
-      - "--global.checknewversion=false"
-      - "--global.sendanonymoususage=false"
-      - "--api.insecure=true"
-      - "--accesslog=true"
-      - "--certificatesresolvers.cloudflare.acme.email=me@kyleculp.com"
-      - "--certificatesresolvers.cloudflare.acme.storage=/data/acme.json"
-      - "--certificatesresolvers.cloudflare.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
-      # - "--certificatesresolvers.letsencrypt.acme.caserver=https://acme-v02.api.letsencrypt.org/directory"
-      - "--certificatesResolvers.cloudflare.acme.dnschallenge=true"
-      - "--certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare"
-      - "--certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53"
+      - --global.checknewversion=false
+      - --global.sendanonymoususage=false
+      - --api.insecure=true
+      - --accesslog=true
+      - --providers.kubernetescrd
+      - --certificatesresolvers.cloudflare.acme.email=me@kyleculp.com
+      - --certificatesresolvers.cloudflare.acme.storage=/data/acme.json
+      - --certificatesresolvers.cloudflare.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
+      # - --certificatesresolvers.letsencrypt.acme.caserver=https://acme-v02.api.letsencrypt.org/directory
+      - --certificatesResolvers.cloudflare.acme.dnschallenge=true
+      - --certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
+      - --certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53
     env:
       - name: TZ
         value: America/Chicago
     ingressClass:
       enabled: true
-    isDefaultClass: "true"
+    isDefaultClass: true
     ingressRoute:
       dashboard:
         enabled: true
