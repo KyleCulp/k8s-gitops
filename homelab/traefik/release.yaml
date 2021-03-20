@@ -73,16 +73,17 @@ spec:
         protocol: TCP
         tls:
           enabled: true
-          certResolver: cloudflare
-          domains:
-            - kyleculp: kyleculp.com
-              sans:
-                - traefik.kyleculp.com
-                - git.kyleculp.com
-            - asicforecast: asicforecast.com
-              sans:
-                - bw.asicforecast.com
-                - traefik.asicforecast.com
+          # certResolver: cloudflare
+          # domains:
+          #   - kyleculp: kyleculp.com
+          #     sans:
+          #       - traefik.kyleculp.com
+          #       - git.kyleculp.com
+          #   - asicforecast: asicforecast.com
+          #     sans:
+          #       - bw.asicforecast.com
+          #       - whoami.asicforecast.com
+          #       - traefik.asicforecast.com
     tlsOptions:
       minVersion: VersionTLS13
     logs:
