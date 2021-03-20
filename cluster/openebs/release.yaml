@@ -14,8 +14,4 @@ spec:
         kind: HelmRepository
         name: openebs
         namespace: flux-system
-  values:
-    localprovisioner:
-      enabled: true
-      basePath: "/var/openebs/local"
   interval: 10m0s

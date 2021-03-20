@@ -5,9 +5,9 @@ metadata:
   name: traefik
   namespace: traefik
 spec:
-  dependsOn:
-    - name: cert-manager
-      namespace: cert-manager
+  # dependsOn:
+  #   - name: cert-manager
+  #     namespace: cert-manager
   chart:
     spec:
       chart: traefik
@@ -34,10 +34,10 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
-    persistence:
-      enabled: true
-      existingClaim: "traefik-certs-pvc"
-      path: "/data"
+    # persistence:
+    #   enabled: true
+    #   existingClaim: "traefik-certs-pvc"
+    #   path: "/data"
     service:
       enabled: true
     ports:
