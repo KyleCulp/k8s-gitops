@@ -8,6 +8,7 @@ spec:
   entryPoints:
     - web
     - websecure
+    - traefik
   routes:                           # [2]
   - kind: Rule
     match: Host(`asicforecast.com`) # [3]
