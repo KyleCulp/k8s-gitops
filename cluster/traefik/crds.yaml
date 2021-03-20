@@ -22,7 +22,7 @@ spec:
     - name: traefik-crd
       namespace: default
   interval: 5m
-  path: "./routes/kustomization.yaml"
+  path: "./kustomization.yaml"
   prune: true
   sourceRef:
     kind: GitRepository
