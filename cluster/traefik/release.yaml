@@ -36,7 +36,7 @@ spec:
         value: America/Chicago
     # persistence:
     #   enabled: true
-    #   existingClaim: "traefik-certs-pvc"
+    #   existingClaim: "traefik-cert-pvc"
     #   path: "/data"
     service:
       enabled: true

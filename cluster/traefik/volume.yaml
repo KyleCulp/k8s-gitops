@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: traefik-certs-pvc
+  name: traefik-cert-pvc
   namespace: traefik
 spec:
   storageClassName: openebs
