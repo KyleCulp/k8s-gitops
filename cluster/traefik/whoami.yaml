@@ -12,13 +12,13 @@ spec:
     matchLabels:
       app: whoami
   template:
+    ingress:
+      hosts:
+          - asicforecast.com
     metadata:
       labels:
         app: whoami
     spec:
-      ingress:
-        hosts:
-          - asicforecast.com
       containers:
         - name: whoami
           image: traefik/whoami
