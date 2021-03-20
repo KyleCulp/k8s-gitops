@@ -6,3 +6,4 @@ resources:
   - release.yaml
   # - volume.yaml
   - crds.yaml
+  - dashboard.yaml
