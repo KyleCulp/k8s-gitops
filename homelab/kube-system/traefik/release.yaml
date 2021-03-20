@@ -44,10 +44,10 @@ spec:
     ingressRoute:
       dashboard:
         enabled: true
-    persistence:
-      enabled: true
-      existingClaim: "traefik-cert-pvc"
-      path: "/data"
+    # persistence:
+    #   enabled: true
+    #   existingClaim: "traefik-cert-pvc"
+    #   path: "/data"
     service:
       enabled: true
     ports:
