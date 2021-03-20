@@ -5,7 +5,7 @@ resources:
   - namespace.yaml
   - release.yaml
   # - volume.yaml
-  - crds/crd.yaml
-  - crds/dashboard.yaml
+  - crds.yaml
+  - dashboard.yaml
   - dashboard.yaml
   - whoami.yaml
