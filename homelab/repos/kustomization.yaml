@@ -5,3 +5,4 @@ resources:
   - bitnami.yaml
   - jetstack.yaml
   - openebs.yaml
+  - sealed-secrets.yaml
