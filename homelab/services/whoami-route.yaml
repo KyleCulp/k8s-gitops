@@ -27,6 +27,6 @@ spec:
       match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
       services:
         - name: whoami
-          port: 80
+          port: 443
   tls:
     certResolver: cloudflare
