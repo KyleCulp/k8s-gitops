@@ -39,18 +39,18 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
-    ingressClass:
-      enabled: true
-    isDefaultClass: true
-    ingressRoute:
-      dashboard:
-        enabled: true
-    # persistence:
+    # ingressClass:
     #   enabled: true
-    #   existingClaim: "traefik-cert-pvc"
-    #   path: "/data"
-    service:
+    # isDefaultClass: true
+    # ingressRoute:
+    #   dashboard:
+    #     enabled: true
+    persistence:
       enabled: true
+      existingClaim: "traefik-cert-pvc"
+      path: "/data"
+    # service:
+    #   enabled: true
     ports:
       ssh:
         port: 2222
