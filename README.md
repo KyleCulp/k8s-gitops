@@ -34,7 +34,7 @@ then follow the commands it has you input after for kubectl config stuff
 k3s yaml config gave me permission error, so I just chmod 777'd that hoe and carried on
 
 # flux bootstrap command
-  flux bootstrap github --verbose \
-    --owner=kyleculp --repository=k8s-gitops \
-    --branch=master --path=cluster \
-    --personal --token-auth
+flux bootstrap github --verbose \
+  --owner=kyleculp --repository=k8s-gitops \
+  --branch=master --path=cluster \
+  --personal --token-auth

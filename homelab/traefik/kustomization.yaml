@@ -6,5 +6,4 @@ resources:
   - crds.yaml
   - pvc.yaml
   - release.yaml
-  - whoami.yaml   
-  - whoami-route.yaml
+  - traefik-dashboard.yaml
