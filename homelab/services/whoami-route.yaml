@@ -28,5 +28,5 @@ spec:
       services:
         - name: whoami
           port: 443
-  tls:
-    certResolver: cloudflare
+  # tls:
+  #   certResolver: cloudflare
