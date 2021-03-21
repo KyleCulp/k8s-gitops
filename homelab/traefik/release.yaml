@@ -96,8 +96,6 @@ spec:
           #       - bw.asicforecast.com
           #       - whoami.asicforecast.com
           #       - traefik.asicforecast.com
-    tlsOptions:
-      minVersion: VersionTLS13
     logs:
       general:
         level: INFO
