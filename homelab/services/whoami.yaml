@@ -37,3 +37,22 @@ spec:
       protocol: TCP
   selector:
     app: whoami
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: whoami-routes
+  namespace: services
+spec:
+  routes:
+    - kind: Rule
+      match: Host(`whoami.asicforecast.com`)
+      services: 
+      - kind: Service
+        name: foo
+        namespace: services
+        passHostHeader: true
+        weight: 10
+        port: 80
+  # tls:
+  #   secretName: lanquarden-com-tls
