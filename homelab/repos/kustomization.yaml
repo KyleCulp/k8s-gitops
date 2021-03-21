@@ -5,5 +5,6 @@ resources:
   - bitnami.yaml
   - jetstack.yaml
   - sealed-secrets.yaml
-  - traefik.yaml
   - openebs.yaml
+  - gloo.yaml
+  - traefik.yaml
