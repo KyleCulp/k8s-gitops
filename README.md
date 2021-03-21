@@ -19,7 +19,7 @@ curl https://releases.rancher.com/install-docker/20.10.sh   | sh
 
 # k3d cluster creation command
 k3d cluster create \
-  homelab \
+  homecluster \
   --volume /home/k3s/docker/k3s/manifests:/var/lib/rancher/k3s/server/manifests \
   --volume /home/k3s/docker/k3s/storage:/var/lib/rancher/k3s/storage \
   --api-port 192.168.1.123:6550 \
