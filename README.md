@@ -17,6 +17,8 @@ curl https://releases.rancher.com/install-docker/20.10.sh   | sh
   sudo chown root:docker /var/run/docker.sock
   sudo chown -R root:docker /var/run/docker
 
+
+
 # k3d cluster creation command
 k3d cluster create \
   homecluster \
@@ -38,3 +40,7 @@ flux bootstrap github --verbose \
   --owner=kyleculp --repository=k8s-gitops \
   --branch=master --path=homelab \
   --personal --token-auth
+
+# glooctl (needs python)
+    curl -sL https://run.solo.io/gloo/install | sh
+    export PATH=$HOME/.gloo/bin:$PATH
