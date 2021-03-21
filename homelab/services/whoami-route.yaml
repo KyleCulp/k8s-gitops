@@ -15,7 +15,6 @@ spec:
           port: 80
       middlewares:
         - name: https_redirect
-
 ---
 apiVersion: traefik.containo.us/v1alpha1
 kind: Middleware
