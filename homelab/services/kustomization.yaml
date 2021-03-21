@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - whoami.yaml
-  # - whoami-route.yaml
+  - whoami-route.yaml
   # - bitwarden/bitwarden.yaml
