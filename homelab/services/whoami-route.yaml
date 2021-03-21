@@ -8,25 +8,38 @@ spec:
   entryPoints:
     - web
   routes: 
-  - match: Host(`whoami.asicforecast.com`) && PathPrefix(`/notls`)
+  - match: Host(`whoami.asicforecast.com`)
     kind: Rule
+    priority: 10
     services:
     - name: whoami
       port: 80
 ---
+middlewares:
+    - name: https_redirect
+
+---
 apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
+kind: Middleware
 metadata:
-  name: whoamiingressroutetls
-  namespace: services
+  name: https_redirect
 spec:
-  entryPoints:
-    - websecure
-  routes:
-  - match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
-    kind: Rule
-    services:
-    - name: whoami
-      port: 80
-  tls:
-    certResolver: cloudflare
+  redirectScheme:
+    scheme: https
+    permanent: true
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: IngressRoute
+# metadata:
+#   name: whoamiingressroutetls
+#   namespace: services
+# spec:
+#   entryPoints:
+#     - websecure
+#   routes:
+#   - match: Host(`whoami.asicforecast.com`)
+#     kind: Rule
+#     services:
+#     - name: whoami
+#       port: 80
+#   tls:
+#     certResolver: cloudflare
