@@ -73,13 +73,13 @@ spec:
         protocol: TCP
         redirectTo: websecure
       web:
-        port: 80
+        port: 8000 
         expose: true
         exposedPort: 80
         protocol: TCP
         redirectTo: websecure
       websecure:
-        port: 443
+        port: 8443 
         expose: true
         exposedPort: 443
         protocol: TCP
