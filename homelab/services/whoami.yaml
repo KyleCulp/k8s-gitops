@@ -11,6 +11,8 @@ spec:
       app: whoami
   template:
     metadata:
+      annotations:
+        kubernetes.io/ingress.class: traefik
       labels:
         app: whoami
     spec:
@@ -23,6 +25,8 @@ kind: Service
 metadata:
   name: whoami
   namespace: services
+  annotations:
+    kubernetes.io/ingress.class: traefik
   labels:
     app: whoami
 spec:
