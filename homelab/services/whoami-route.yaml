@@ -1,4 +1,3 @@
-
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
@@ -7,16 +6,15 @@ metadata:
 spec:
   entryPoints:
     - web
-  routes: 
-  - match: Host(`whoami.asicforecast.com`)
-    kind: Rule
-    priority: 10
-    services:
-    - name: whoami
-      port: 80
----
-middlewares:
-    - name: https_redirect
+  routes:
+    - match: Host(`whoami.asicforecast.com`)
+      kind: Rule
+      priority: 10
+      services:
+        - name: whoami
+          port: 80
+      middlewares:
+        - name: https_redirect
 
 ---
 apiVersion: traefik.containo.us/v1alpha1
