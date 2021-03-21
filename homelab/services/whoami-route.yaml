@@ -1,32 +1,32 @@
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: IngressRoute
+metadata:
+  name: whoami
+  namespace: services
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`whoami.asicforecast.com`)
+      kind: Rule
+      services:
+        - name: whoami
+          port: 80
 # ---
-# apiVersion: apiextensions.k8s.io/v1
-# kind: IngressRoute
-# metadata:
-#   name: whoami
-#   namespace: services
-# spec:
-#   entryPoints:
-#     - web
-#   routes:
-#     - match: Host(`whoami.asicforecast.com`)
-#       kind: Rule
-#       services:
-#         - name: whoami
-#           port: 80
-# # ---
-# apiVersion: apiextensions.k8s.io/v1
-# kind: IngressRoute
-# metadata:
-#   name: whoami-tls
-#   namespace: services
-# spec:
-#   entryPoints:
-#     - websecure
-#   routes:
-#     - kind: Rule
-#       match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
-#       services:
-#         - name: whoami
-#           port: 443
-#   tls:
-#     certResolver: cloudflare
+apiVersion: apiextensions.k8s.io/v1
+kind: IngressRoute
+metadata:
+  name: whoami-tls
+  namespace: services
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - kind: Rule
+      match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
+      services:
+        - name: whoami
+          port: 443
+  tls:
+    certResolver: cloudflare
