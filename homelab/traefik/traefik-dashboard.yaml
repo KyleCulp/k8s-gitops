@@ -6,13 +6,12 @@ metadata:
   namespace: traefik
 spec:
   entryPoints:
+    - web
     - websecure
+    - traefik
   routes:
     - match: Host(`traefik.asicforecast.com`) && (PathPrefix(`/api`) || PathPrefix(`/dashboard`))
       kind: Rule
       services:
         - name: api@internal
           kind: TraefikService
-
-  tls:
-    certResolver: cloudflare

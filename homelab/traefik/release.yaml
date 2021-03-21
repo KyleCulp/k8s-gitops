@@ -71,6 +71,7 @@ spec:
         expose: true
         exposedPort: 9000
         protocol: TCP
+        redirectTo: websecure
       web:
         port: 8000
         expose: true
