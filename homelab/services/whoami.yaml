@@ -29,10 +29,11 @@ metadata:
     kubernetes.io/ingress.class: traefik
   labels:
     app: whoami
+    service: whoami
 spec:
-  type: ClusterIP
+  # type: ClusterIP
   ports:
     - port: 80
-      name: whoami
+      protocol: TCP
   selector:
     app: whoami
