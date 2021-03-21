@@ -13,17 +13,17 @@ spec:
       services:
         - name: whoami
           port: 80
-      middlewares:
-        - name: https_redirect
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
-metadata:
-  name: https_redirect
-spec:
-  redirectScheme:
-    scheme: https
-    permanent: true
+#       middlewares:
+#         - name: https_redirect
+# ---
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: Middleware
+# metadata:
+#   name: https_redirect
+# spec:
+#   redirectScheme:
+#     scheme: https
+#     permanent: true
 # apiVersion: traefik.containo.us/v1alpha1
 # kind: IngressRoute
 # metadata:
