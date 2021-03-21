@@ -13,7 +13,6 @@ spec:
       services:
         - name: api@internal
           kind: TraefikService
-      middlewares:
-        - name: traefik-basic-auth
+
   tls:
     certResolver: cloudflare

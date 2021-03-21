@@ -1,2 +1,4 @@
 secrets.env
 cloudflare.json
+secretscert.pem
+*/secretscert.pem

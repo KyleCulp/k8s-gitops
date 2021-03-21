@@ -34,9 +34,20 @@ spec:
       - --certificatesResolvers.cloudflare.acme.dnschallenge=true
       # - --certificatesResolvers.cloudflare.acme.dnschallenge.provider=cloudflare
       - --certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53
+      - --entrypoints.websecure.http.tls.certresolver=cloudflare
+      - --entrypoints.websecure.http.tls.domains[0].main=asicforecast.com
+      - --entrypoints.websecure.http.tls.domains[0].sans=*.asicforecast.com
     env:
-      - name: TZ
-        value: America/Chicago
+      - name: CF_API_EMAIL
+        valueFrom:
+          secretKeyRef:
+            key: email
+            name: cloudflare-credentials
+      - name: CF_API_KEY
+        valueFrom:
+          secretKeyRef:
+            key: apiKey
+            name: cloudflare-credentials
     # ingressClass:
     #   enabled: true
     isDefaultClass: true
