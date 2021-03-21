@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: whoami-ingress
+  annotations:
+    # note: this annotation is only required if you've set
+    # REQUIRE_INGRESS_CLASS=true in the environment for
+    # the ingress deployment
+    kubernetes.io/ingress.class: gloo
+spec:
+  # tls:
+  #   - hosts:
+  #       - gloo.example.com
+  #     secretName: my-tls-secret
+  rules:
+    - host: whoami.asicforecast.com
+      http:
+        paths:
+          - path: /.*
+            backend:
+              serviceName: whoami
+              servicePort: 80
