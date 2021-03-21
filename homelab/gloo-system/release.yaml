@@ -18,3 +18,8 @@ spec:
         name: gloo
         namespace: flux-system
   values:
+    gateway:
+      enabled: false
+    ingress:
+      enabled: true
+  interval: 1m
