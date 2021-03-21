@@ -13,20 +13,20 @@ spec:
       services:
         - name: whoami
           port: 80
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
-metadata:
-  name: whoami-tls
-  namespace: services
-spec:
-  entryPoints:
-    - websecure
-  routes:
-    - kind: Rule
-      match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
-      services:
-        - name: whoami
-          port: 443
+# ---
+# apiVersion: traefik.containo.us/v1alpha1
+# kind: IngressRoute
+# metadata:
+#   name: whoami-tls
+#   namespace: services
+# spec:
+#   entryPoints:
+#     - websecure
+#   routes:
+#     - kind: Rule
+#       match: Host(`whoami.asicforecast.com`) && PathPrefix(`/tls`)
+#       services:
+#         - name: whoami
+#           port: 443
   # tls:
   #   certResolver: cloudflare
