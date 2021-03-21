@@ -44,3 +44,5 @@ flux bootstrap github --verbose \
 # glooctl (needs python)
     curl -sL https://run.solo.io/gloo/install | sh
     export PATH=$HOME/.gloo/bin:$PATH
+
+ily  https://github.com/lanquarden/roci-gitops/tree/main/cluster/network
