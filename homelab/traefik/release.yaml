@@ -19,7 +19,7 @@ spec:
     providers:
       kubernetesCRD:
         enabled: true
-        namespaces: ["services", "media", "devops", "traefik"]
+        # namespaces: ["services", "media", "devops", "traefik"]
         allowCrossNamespace: true
     additionalArguments:
       - --global.checknewversion=false
@@ -37,8 +37,8 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
-    ingressClass:
-      enabled: true
+    # ingressClass:
+    #   enabled: true
     isDefaultClass: true
     ingressRoute:
       dashboard:
