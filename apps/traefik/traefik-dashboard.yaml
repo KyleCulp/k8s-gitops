@@ -2,16 +2,14 @@
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
-  name: traefik-dashboard
+  name: traefik-routes
   namespace: traefik
 spec:
-  entryPoints:
-    - web
-    - websecure
-    - traefik
   routes:
-    - match: Host(`traefik.asicforecast.com`) && (PathPrefix(`/api`) || PathPrefix(`/dashboard`))
-      kind: Rule
+    - kind: Rule
+      match: Host(`traefik.asicforecast.com`)
       services:
-        - name: api@internal
-          kind: TraefikService
+        - kind: TraefikService
+          name: api@internal
+  # tls:
+  #   secretName: lanquarden-com-tls
