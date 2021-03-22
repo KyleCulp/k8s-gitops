@@ -41,7 +41,7 @@ spec:
       - "--metrics.prometheus.entryPoint=metrics"
       - "--serverstransport.insecureskipverify=true"
       - --certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
-      - --certificatesResolvers.letsencrypt.email=me@kyleculp.com
+      - --certificatesResolvers.letsencrypt.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.storage=/data/acme.json
       - --certificatesresolvers.cloudflare.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
