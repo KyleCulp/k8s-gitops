@@ -40,13 +40,17 @@ spec:
       - "--metrics=true"
       - "--metrics.prometheus.entryPoint=metrics"
       - "--serverstransport.insecureskipverify=true"
+      - --certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
+      - --certificatesResolvers.letsencrypt.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.storage=/data/acme.json
       - --certificatesresolvers.cloudflare.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
       # - --certificatesresolvers.letsencrypt.acme.caserver=https://acme-v02.api.letsencrypt.org/directory
       - --certificatesResolvers.cloudflare.acme.dnschallenge=true
-      - --certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
       - --certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53
+    env:
+      - name: TZ
+        value: America/Chicago
     metrics:
       prometheus:
         enabled: true
