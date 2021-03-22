@@ -28,6 +28,7 @@ spec:
       services: 
       - kind: Service
         name: minio
+        namespace: minio
         passHostHeader: true
         weight: 10
         port: 80
