@@ -14,6 +14,7 @@ spec:
         kind: HelmRepository
         name: minio
         namespace: flux-system
+  values:
 ---
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
