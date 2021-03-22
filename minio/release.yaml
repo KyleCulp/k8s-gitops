@@ -17,7 +17,7 @@ spec:
       interval: 1m
   values:
     operator:
-      clusterDomain: minio.k8s-local.io
+      clusterDomain: minio.kyleculp.com
     console:
       replicaCount: 1
 ---
@@ -29,7 +29,7 @@ metadata:
 spec:
   routes:
     - kind: Rule
-      match: Host(`minio.asicforecast.com`)
+      match: Host(`minio.kyleculp.com`)
       services:
         - kind: Service
           name: minio
@@ -38,4 +38,4 @@ spec:
           weight: 10
           port: 80
   tls:
-    secretName: asicforecast-tls
+    secretName: kyleculp-tls
