@@ -1,3 +1,3 @@
 #!/bin/bash
-kubeseal --fetch-cert > secretscert.pem
+kubeseal -n kube-system --fetch-cert > secretscert.pem
 echo "Cert saved as: secretscert.pem"
