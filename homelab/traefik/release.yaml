@@ -59,6 +59,7 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
+      - 
     metrics:
       prometheus:
         enabled: true

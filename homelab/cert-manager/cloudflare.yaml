@@ -1,0 +1,32 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: ClusterIssuer
+metadata:
+  name: cloudflare-staging
+spec:
+  acme:
+    # You must replace this email address with your own.
+    # Let's Encrypt will use this to contact you about expiring
+    # certificates, and issues related to your account.
+    email: me@kyleculp.com
+    server: https://acme-staging-v02.api.letsencrypt.org/directory #https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      # Secret resource used to store the account's private key.
+      name: cloudflare-privkey
+    solvers:
+      - dns01:
+          ingress:
+            class: traefik
+          cloudflare:
+            email: me@kyleculp.com
+            apiKeySecretRef:
+              name: cloudflare-credentials
+              key: CF_API_KEY
+            apiTokenSecretRef:
+              name: cloudflare-credentials
+              key: CF_API_TOKEN
+        selector:
+          dnsZones:
+            - "asicforecast.com"
+            - "*.asicforecast.com"
+            - "kyleculp.com"
+            - "*.kyleculp.com"
