@@ -59,7 +59,16 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
-      # - CLOUDFLARE_EMA
+      - name: CF_API_EMAIL
+        valueFrom:
+          secretKeyRef:
+            key: API_EMAIL
+            name: cloudflare
+      - name: CF_API_KEY
+        valueFrom:
+          secretKeyRef:
+            key: API_KEY
+            name: cloudflare
     metrics:
       prometheus:
         enabled: true
