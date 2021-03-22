@@ -59,7 +59,7 @@ spec:
     env:
       - name: TZ
         value: America/Chicago
-      - 
+      # - CLOUDFLARE_EMA
     metrics:
       prometheus:
         enabled: true
