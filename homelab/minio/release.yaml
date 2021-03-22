@@ -19,7 +19,7 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
   name: minio-routes
-  namespace: services
+  namespace: minio
 spec:
   routes:
     - kind: Rule
