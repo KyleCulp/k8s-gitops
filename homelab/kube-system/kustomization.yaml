@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
   - sealed-secrets.yaml
   - secrets/cloudflare.yaml
+  - certs/asicforecast-tls.yaml
+  - secrets/minio-console.yaml
+  - secrets/minio-tenant.yaml
