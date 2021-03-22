@@ -5,4 +5,5 @@ Todo, in order:
 - Bitwarden
 - Backup and restore bitwarden
 - S3 storage
--  
+- Full logging of everything via Prometheus
+- Graphana

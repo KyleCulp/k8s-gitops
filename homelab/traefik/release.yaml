@@ -23,7 +23,7 @@ spec:
         enabled: false
     deployment:
       podAnnotations:
-        prometheus.io/scrape: "true"
+        prometheus.io/scrape: true
         prometheus.io/port: "8082"
     ingressClass:
       enabled: true
@@ -32,20 +32,28 @@ spec:
       dashboard:
         enabled: true
     additionalArguments:
-      - "--ping"
-      - "--entrypoints.websecure.http.tls"
-      - "--entrypoints.web.http.redirections.entryPoint.to=:443"
-      - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
-      - "--api.dashboard=true"
-      - "--metrics=true"
-      - "--metrics.prometheus.entryPoint=metrics"
-      - "--serverstransport.insecureskipverify=true"
+      - --ping
+      - --api.dashboard=true
+      - --metrics=true
+      - --metrics.prometheus.entryPoint=metrics
+      - --serverstransport.insecureskipverify=true
       - --certificatesResolvers.letsencrypt.acme.dnschallenge.provider=cloudflare
       - --certificatesResolvers.letsencrypt.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.storage=/data/acme.json
+      - --entrypoints.websecure.http.tls
+      - --entrypoints.web.http.redirections.entryPoint.to=:443
+      - --entrypoints.web.http.redirections.entryPoint.scheme=https
+      - --entrypoints.https.http.tls.certresolver=cloudflare
+      - --entrypoints.https.http.tls.domains[0].main=asicforecast.com
+      - --entrypoints.https.http.tls.domains[0].sans=*.asicforecast.com
+      - --entrypoints.https.http.tls.domains[1].main=kyleculp.com
+      - --entrypoints.https.http.tls.domains[1].sans=*.$kyleculp.com
+      - --entrypoints.https.http.tls.domains[2].main=pcpb.app
+      - --entrypoints.https.http.tls.domains[2].sans=*.$pcpb.app 
       - --certificatesresolvers.cloudflare.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
       # - --certificatesresolvers.letsencrypt.acme.caserver=https://acme-v02.api.letsencrypt.org/directory
+      - --certificatesResolvers.cloudflare.acme.dnsChallenge.provider=cloudflare
       - --certificatesResolvers.cloudflare.acme.dnschallenge=true
       - --certificatesResolvers.cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53
     env:
