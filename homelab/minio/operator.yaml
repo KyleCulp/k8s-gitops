@@ -32,11 +32,11 @@ spec:
         passHostHeader: true
         weight: 10
         port: 80
-      - kind: Service
-        name: minio
-        namespace: minio
-        passHostHeader: true
-        weight: 10
-        port: 443
+    # - kind: Service
+    #   name: minio
+    #   namespace: minio
+    #   passHostHeader: true
+    #   weight: 10
+    #   port: 443
   tls:
     secretName: asicforecast-tls
