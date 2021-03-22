@@ -21,21 +21,21 @@ spec:
     console:
       replicaCount: 1
 ---
-# apiVersion: traefik.containo.us/v1alpha1
-# kind: IngressRoute
-# metadata:
-#   name: minio-console
-#   namespace: minio
-# spec:
-#   routes:
-#     - kind: Rule
-#       match: Host(`minio.kyleculp.com`)
-#       services:
-#         - kind: Service
-#           name: minio
-#           namespace: minio
-#           passHostHeader: true
-#           weight: 10
-#           port: 80
-#   tls:
-#     secretName: kyleculp-tls
+  # apiVersion: traefik.containo.us/v1alpha1
+  # kind: IngressRoute
+  # metadata:
+  #   name: minio-console
+  #   namespace: minio
+  # spec:
+  #   routes:
+  #     - kind: Rule
+  #       match: Host(`minio.kyleculp.com`)
+  #       services:
+  #         - kind: Service
+  #           name: minio-console
+  #           namespace: minio
+  #           passHostHeader: true
+  #           weight: 10
+  #           port: 9090
+  #   tls:
+  #     secretName: kyleculp-tls
