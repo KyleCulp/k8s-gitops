@@ -49,3 +49,4 @@ ily  https://github.com/lanquarden/roci-gitops/tree/main/cluster/network
 
 # Traefik Ingress
 Currently I hate k8s, and after days of rangling treafik w/ k8s I just yeeted in some random config that worked and looked like my old nonworking config so I dunno, but I just configure everything via args really
+
