@@ -11,5 +11,5 @@ spec:
       services:
         - kind: TraefikService
           name: api@internal
-  # tls:
-  #   secretName: lanquarden-com-tls
+  tls:
+    secretName: asicforecast-tls

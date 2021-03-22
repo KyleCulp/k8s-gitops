@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
   - _namespace.yaml
   - release.yaml
+  - tenant.yaml
     # - whoami-ingress.yaml
   # - bitwarden/bitwarden.yaml
