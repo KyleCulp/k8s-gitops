@@ -54,5 +54,5 @@ spec:
         passHostHeader: true
         weight: 10
         port: 80
-  # tls:
-  #   secretName: lanquarden-com-tls
+  tls:
+    secretName: asicforecast-tls

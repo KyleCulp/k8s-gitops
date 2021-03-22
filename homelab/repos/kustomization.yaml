@@ -6,5 +6,5 @@ resources:
   - jetstack.yaml
   - sealed-secrets.yaml
   - openebs.yaml
-  - gloo.yaml
   - traefik.yaml
+  - minio.yaml
