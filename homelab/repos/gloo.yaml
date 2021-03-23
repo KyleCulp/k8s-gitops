@@ -1,8 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: HelmRepository
-metadata:
-  name: gloo
-  namespace: flux-system
-spec:
-  interval: 1m
-  url: https://storage.googleapis.com/solo-public-helm
