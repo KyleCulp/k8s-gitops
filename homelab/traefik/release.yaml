@@ -41,7 +41,7 @@ spec:
       - --certificatesresolvers.cloudflare.acme.email=me@kyleculp.com
       - --certificatesresolvers.cloudflare.acme.storage=/data/acme.json
       - --entrypoints.websecure.http.tls
-      - --entrypoints.web.http.redirections.entryPoint.to=:443
+      - --entrypoints.web.http.redirections.entryPoint.to=:444
       - --entrypoints.web.http.redirections.entryPoint.scheme=https
       - --entrypoints.https.http.tls.certresolver=cloudflare
       - --entrypoints.https.http.tls.domains[0].main=asicforecast.com
