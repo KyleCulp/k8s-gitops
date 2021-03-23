@@ -4,7 +4,6 @@ resources:
   - k8s-at-home.yaml
   - bitnami.yaml
   - jetstack.yaml
-  - sealed-secrets.yaml
   - openebs.yaml
   - traefik.yaml
   - minio.yaml

@@ -5,12 +5,11 @@ services:
     container_name: nginx-proxy
     restart: always
     ports:
-      - "8443:443"
-      - "8442:80"
+      - "443:443"
+      - "80:80"
     volumes:
-      - ./conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/nginx.conf:/etc/nginx/inginx.conf
       # - ./ssl:/etc/nginx/ssl:ro
       # - ./snippets:/etc/nginx/snippets:ro
       # - ./protect:/etc/nginx/protect:ro
-    networks:
-      - proxy-tier
