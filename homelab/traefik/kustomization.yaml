@@ -5,4 +5,4 @@ resources:
   - crds.yaml
   - pvc.yaml
   - release.yaml
-  - traefik-dashboard.yaml
+  # - traefik-dashboard.yaml
