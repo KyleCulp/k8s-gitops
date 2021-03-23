@@ -6,3 +6,6 @@ resources:
   - pvc.yaml
   - release.yaml
   - traefik-dashboard.yaml
+  - cloudflare-secret.yaml
+  - certs/kyleculp-tls.yaml
+  - certs/asicforecast-tls.yaml
