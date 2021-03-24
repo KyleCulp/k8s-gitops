@@ -5,6 +5,6 @@ if [ $# -eq 0 ]
 fi
 
 kubectl create secret generic $1 --dry-run=client --from-env-file=$2 -n $3 -o json | \
-  kubeseal -o yaml > priv/build/$1-secret.yaml
+  kubeseal -o yaml > priv/build/$1.yaml
 
-echo "'priv/build/$1-secret.yaml' is safe to upload to github"
+echo "'priv/build/$1.yaml' is safe to upload to github"

@@ -1,0 +1,47 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: bitwardenrs
+spec:
+  releaseName: bitwardenrs
+  chart:
+    spec:
+      chart: bitwardenrs
+      sourceRef:
+        kind: HelmRepository
+        name: k8s-at-home
+        namespace: flux-system
+      version: "2.0.2"
+  interval: 1m
+  install:
+    remediation:
+      retries: 3
+  values:
+    env:
+      - name: TZ
+        value: America/Chicago
+    bitwardenrs:
+      domain: "bitwarden.kyleculp.com"
+    persistence:
+      enabled: true
+      size: 1Gi
+
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: bitwardenrs
+  namespace: services
+spec:
+  routes:
+    - kind: Rule
+      match: Host(`bitwarden.kyleculp.com`)
+      services: 
+      - kind: Service
+        name: whoami
+        namespace: services
+        passHostHeader: true
+        weight: 10
+        port: 80
+  tls:
+    secretName: kyleculp-tls
