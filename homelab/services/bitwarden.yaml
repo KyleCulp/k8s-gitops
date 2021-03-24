@@ -38,7 +38,7 @@ spec:
       match: Host(`bitwarden.kyleculp.com`)
       services: 
       - kind: Service
-        name: whoami
+        name: bitwardenrs
         namespace: services
         passHostHeader: true
         weight: 10
