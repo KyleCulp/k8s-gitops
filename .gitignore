@@ -4,3 +4,4 @@ secretscert.pem
 */secretscert.pem
 priv
 priv/
+docker/nginx/certs

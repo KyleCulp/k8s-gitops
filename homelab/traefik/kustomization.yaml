@@ -3,9 +3,9 @@ kind: Kustomization
 resources:
   - _namespace.yaml
   - crds.yaml
-  - pvc.yaml
   - release.yaml
   - traefik-dashboard.yaml
   - cloudflare-secret.yaml
-  - certs/kyleculp-tls.yaml
   - certs/asicforecast-tls.yaml
+  - certs/cloudflareclient-tls.yaml
+  - certs/kyleculp-tls.yaml

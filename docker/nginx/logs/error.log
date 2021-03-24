@@ -1,0 +1,248 @@
+2021/03/24 15:03:48 [error] 25#25: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:03:57 [error] 24#24: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:03:58 [error] 24#24: *2 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:10 [error] 29#29: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:11 [error] 29#29: *2 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:13 [error] 26#26: *5 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:13 [error] 29#29: *4 no host in upstream "", client: 108.162.216.19, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:13 [error] 29#29: *3 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:13 [error] 29#29: *6 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:19 [error] 27#27: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:20 [error] 27#27: *2 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:27 [error] 25#25: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:04:27 [error] 25#25: *2 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:06:21 [error] 25#25: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:06:22 [error] 25#25: *4 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:06:56 [error] 25#25: *21 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:04 [error] 25#25: *40 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:22 [error] 24#24: *1 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:27 [error] 25#25: *1 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:29 [error] 25#25: *2 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:30 [error] 25#25: *3 no host in upstream "", client: 162.158.75.172, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:31 [error] 25#25: *4 no host in upstream "", client: 162.158.75.172, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:32 [error] 25#25: *5 no host in upstream "", client: 162.158.74.95, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:41 [error] 25#25: *6 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:07:51 [error] 25#25: *7 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:01 [error] 25#25: *8 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:11 [error] 25#25: *9 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:16 [error] 25#25: *10 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:26 [error] 25#25: *11 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:36 [error] 25#25: *12 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:46 [error] 25#25: *13 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:08:56 [error] 25#25: *14 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:06 [error] 25#25: *15 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:13 [error] 25#25: *16 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:13 [error] 25#25: *17 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:13 [error] 25#25: *18 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:13 [error] 25#25: *19 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:21 [error] 25#25: *20 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:31 [error] 25#25: *21 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:41 [error] 25#25: *22 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:09:51 [error] 25#25: *23 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:10:01 [error] 25#25: *24 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:10:11 [error] 25#25: *25 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:10:16 [error] 25#25: *26 no host in upstream "", client: 108.162.216.18, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:11:13 [error] 25#25: *27 no host in upstream "", client: 108.162.216.224, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:11:13 [error] 25#25: *28 no host in upstream "", client: 108.162.216.224, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:11:13 [error] 25#25: *29 no host in upstream "", client: 108.162.216.224, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:11:13 [error] 25#25: *30 no host in upstream "", client: 108.162.216.224, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:11:14 [error] 25#25: *31 no host in upstream "", client: 108.162.216.224, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:12:13 [error] 25#25: *32 no host in upstream "", client: 108.162.216.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:12:13 [error] 27#27: *34 no host in upstream "", client: 108.162.216.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:12:13 [error] 25#25: *33 no host in upstream "", client: 108.162.216.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:12:13 [error] 25#25: *35 no host in upstream "", client: 108.162.216.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:12:13 [error] 25#25: *36 no host in upstream "", client: 108.162.216.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:13:28 [error] 25#25: *37 no host in upstream "", client: 162.158.74.23, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:13:28 [error] 25#25: *38 no host in upstream "", client: 162.158.74.23, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:13:28 [error] 25#25: *39 no host in upstream "", client: 162.158.74.23, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:14:13 [error] 25#25: *40 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:14:13 [error] 25#25: *41 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:14:14 [error] 25#25: *42 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:14:14 [error] 25#25: *43 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:14:14 [error] 25#25: *44 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:15:14 [error] 25#25: *45 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:15:14 [error] 25#25: *46 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:15:14 [error] 25#25: *47 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:15:14 [error] 25#25: *48 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:15:15 [error] 25#25: *49 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:16:13 [error] 25#25: *50 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:16:13 [error] 25#25: *51 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:16:13 [error] 25#25: *52 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:16:14 [error] 25#25: *53 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:16:15 [error] 25#25: *54 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:17:13 [error] 25#25: *55 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:17:13 [error] 25#25: *56 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:17:13 [error] 25#25: *57 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:17:14 [error] 25#25: *58 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:17:15 [error] 25#25: *59 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:18:14 [error] 25#25: *60 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:18:14 [error] 25#25: *61 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:18:14 [error] 25#25: *62 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:18:14 [error] 25#25: *63 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:18:15 [error] 25#25: *64 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:19:13 [error] 25#25: *65 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:19:13 [error] 25#25: *66 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:19:14 [error] 25#25: *67 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:19:14 [error] 25#25: *68 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:19:14 [error] 25#25: *69 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:20:14 [error] 25#25: *70 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:20:14 [error] 25#25: *71 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:21:14 [error] 25#25: *72 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:21:14 [error] 25#25: *73 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:22:14 [error] 25#25: *74 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:22:14 [error] 25#25: *75 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:23:14 [error] 25#25: *76 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:23:14 [error] 25#25: *77 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:24:14 [error] 25#25: *78 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:24:14 [error] 25#25: *79 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:25:14 [error] 25#25: *80 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:25:14 [error] 25#25: *81 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:26:14 [error] 25#25: *82 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:26:14 [error] 25#25: *83 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:27:14 [error] 25#25: *84 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:27:14 [error] 25#25: *85 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:28:14 [error] 25#25: *86 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:28:14 [error] 25#25: *87 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:29:14 [error] 25#25: *88 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:29:14 [error] 25#25: *89 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:30:14 [error] 25#25: *90 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:30:14 [error] 25#25: *91 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:31:14 [error] 25#25: *92 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:31:14 [error] 25#25: *93 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:32:14 [error] 25#25: *94 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:32:14 [error] 25#25: *95 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:33:14 [error] 25#25: *96 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:33:14 [error] 25#25: *97 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:34:14 [error] 25#25: *98 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:34:14 [error] 25#25: *99 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:35:14 [error] 25#25: *100 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:35:14 [error] 25#25: *101 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:36:14 [error] 25#25: *102 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:36:14 [error] 25#25: *103 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:37:14 [error] 25#25: *104 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:37:14 [error] 25#25: *105 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:38:14 [error] 25#25: *106 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:38:14 [error] 25#25: *107 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:39:14 [error] 25#25: *108 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:39:14 [error] 25#25: *109 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:40:14 [error] 25#25: *110 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:40:14 [error] 25#25: *111 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:41:14 [error] 25#25: *112 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:41:14 [error] 25#25: *113 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:42:14 [error] 25#25: *114 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:42:14 [error] 25#25: *115 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:43:14 [error] 25#25: *116 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:43:14 [error] 25#25: *117 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:44:14 [error] 25#25: *118 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:44:14 [error] 25#25: *119 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:45:14 [error] 25#25: *121 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:45:14 [error] 25#25: *120 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:46:14 [error] 25#25: *122 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:46:14 [error] 25#25: *123 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:47:14 [error] 25#25: *124 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:47:14 [error] 25#25: *125 no host in upstream "", client: 172.68.24.75, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:48:14 [error] 25#25: *126 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:48:14 [error] 25#25: *127 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:49:14 [error] 25#25: *128 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:49:14 [error] 25#25: *129 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:49:26 [error] 25#25: *130 no host in upstream "", client: 139.162.116.133, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:50:14 [error] 25#25: *131 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:50:14 [error] 25#25: *132 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:51:14 [error] 25#25: *133 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:51:14 [error] 25#25: *134 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:52:14 [error] 25#25: *135 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:52:14 [error] 25#25: *136 no host in upstream "", client: 172.68.24.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 15:52:18 [error] 25#25: *137 no host in upstream "", client: 172.68.24.192, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 16:08:34 [error] 26#26: *311 no host in upstream "", client: 172.68.141.74, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 16:43:58 [error] 26#26: *456 no host in upstream "", client: 192.241.226.35, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:29:49 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:49 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:49 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:49 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:49 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:49 [emerg] 1#1: still could not bind()
+2021/03/24 17:29:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:52 [emerg] 1#1: still could not bind()
+2021/03/24 17:29:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:29:56 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:00 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:00 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:04 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:04 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:04 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:04 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:04 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:04 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:09 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:09 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:09 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:09 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:09 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:09 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:16 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:16 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:16 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:16 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:16 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:16 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:26 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:26 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:26 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:26 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:26 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:26 [emerg] 1#1: still could not bind()
+2021/03/24 17:30:42 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:42 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:42 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:42 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:42 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:30:42 [emerg] 1#1: still could not bind()
+2021/03/24 17:31:11 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:31:11 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:31:11 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:31:11 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:31:11 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:31:11 [emerg] 1#1: still could not bind()
+2021/03/24 17:32:50 [error] 31#31: *113 no host in upstream "", client: 162.158.90.234, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:32:51 [error] 31#31: *114 no host in upstream "", client: 162.158.88.116, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:32:59 [error] 31#31: *119 no host in upstream "", client: 162.158.212.198, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:33:00 [error] 31#31: *120 no host in upstream "", client: 162.158.212.228, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:33:58 [error] 31#31: *135 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:36:32 [error] 31#31: *148 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:36:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:52 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:52 [emerg] 1#1: still could not bind()
+2021/03/24 17:36:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:56 [emerg] 1#1: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2021/03/24 17:36:56 [emerg] 1#1: still could not bind()
+2021/03/24 17:37:08 [error] 24#24: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: minio.kyleculp.com, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:80/", host: "minio.kyleculp.com"
+2021/03/24 17:37:14 [error] 24#24: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: minio.kyleculp.com, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:80/", host: "minio.kyleculp.com", referrer: "https://minio.kyleculp.com/"
+2021/03/24 17:38:55 [error] 24#24: *17 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:40:15 [error] 24#24: *9 no host in upstream "", client: 162.158.93.33, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:42:18 [error] 24#24: *32 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:42:40 [error] 24#24: *1 no host in upstream "", client: 162.158.90.234, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:42:41 [error] 24#24: *2 no host in upstream "", client: 162.158.88.116, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:44:21 [error] 24#24: *59 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:46:48 [error] 24#24: *126 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:50:27 [error] 24#24: *231 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:54:07 [error] 24#24: *330 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 17:56:22 [error] 24#24: *397 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/03/24 18:00:39 [error] 24#24: *518 no host in upstream "", client: 162.158.90.42, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0

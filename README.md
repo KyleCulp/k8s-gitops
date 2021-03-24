@@ -1,3 +1,10 @@
+My homelab, using a mix of docker compose and k3s
+
+Router: OPNSense virtualized in proxmox
+NGinx reverse proxy to forward traffic / terminate traffic based on SNI. NGinx needs list of domains k3s is using to forward to the cluster. 
+Reverse proxy only accepts communication from cloudflare, with cloudflare origins installed on nginx and k3s cluster
+
+
 project dependencies:
 - docker
 - k3d

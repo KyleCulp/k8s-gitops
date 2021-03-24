@@ -41,7 +41,7 @@ spec:
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
-  name: whoami-routes
+  name: whoami
   namespace: services
 spec:
   routes:
@@ -55,4 +55,4 @@ spec:
         weight: 10
         port: 80
   tls:
-    secretName: asicforecast-tls
+    secretName: cloudflareclient-tls

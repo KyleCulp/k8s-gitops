@@ -1,15 +1,42 @@
-version: '3'
+version: "3.7"
 services:
-  nginx-proxy:
+  nginx:
     image: nginx
-    container_name: nginx-proxy
+    container_name: nginx
     restart: always
     ports:
       - "443:443"
       - "80:80"
+      - "8443:8443"
     volumes:
-      - ./nginx/conf.d:/etc/nginx/conf.d
-      - ./nginx/nginx.conf:/etc/nginx/inginx.conf
-      # - ./ssl:/etc/nginx/ssl:ro
-      # - ./snippets:/etc/nginx/snippets:ro
-      # - ./protect:/etc/nginx/protect:ro
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/logs:/etc/nginx/logs
+      - ./nginx/certs:/etc/nginx/certs
+
+  whoami:
+    image: "traefik/whoami"
+    container_name: "whoami"
+
+#   minio:
+#     image: 'docker.io/bitnami/minio:2021-debian-10'
+#     container_name: minio
+#     networks:
+#       - traefik_proxy
+#       - default
+#     environment:
+#       - MINIO_ACCESS_KEY=${CLOUDS3_ACCESS_KEY}
+#       - MINIO_SECRET_KEY=${CLOUDS3_SECRET_KEY}
+#     volumes: # In the future, this will be moved off of nvme
+#       # - 'minio:/data'
+#       - clouds3:/data
+#     labels:
+#       - "traefik.enable=true"
+#       - "traefik.docker.network=traefik_proxy"
+#       - "traefik.http.routers.clouds3.rule=Host(`clouds3.${DOMAINNAME}`)"
+#       - "traefik.http.routers.clouds3.entrypoints=https"
+#       - "traefik.http.routers.clouds3.tls=true"
+#       - "traefik.http.routers.clouds3.tls.certresolver=cloudflare"
+#       - "traefik.http.services.clouds3.loadbalancer.server.port=9000"
+# volumes:
+#   clouds3:
+#     driver: local
