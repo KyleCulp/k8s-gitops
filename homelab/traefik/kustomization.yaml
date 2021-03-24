@@ -5,7 +5,7 @@ resources:
   - crds.yaml
   - release.yaml
   - traefik-dashboard.yaml
-  - certs/asicforecast-tls.yaml
-  - certs/cloudflareclient-tls.yaml
-  - certs/kyleculp-tls.yaml
-  - cloudflare-credentials.yaml
+  # - certs/asicforecast-tls.yaml
+  # - certs/cloudflareclient-tls.yaml
+  # - certs/kyleculp-tls.yaml
+  # - cloudflare-credentials.yaml
