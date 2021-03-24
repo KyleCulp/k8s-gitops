@@ -12,31 +12,20 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/logs:/etc/nginx/logs
       - ./nginx/certs:/etc/nginx/certs
+    # networks:
+    #   homelab:
+    #     ipv4_address: 172.20.0.4
 
-  whoami:
-    image: "traefik/whoami"
-    container_name: "whoami"
+  # In the future, this will be moved off this vm but not into k8s
+  miniobackups:
+    image: 'docker.io/bitnami/minio:2021-debian-10'
+    container_name: miniobackups
+    restart: always
+    env_file:
+     - ../priv/minio.env
+    volumes: 
+      - minio:/data
 
-#   minio:
-#     image: 'docker.io/bitnami/minio:2021-debian-10'
-#     container_name: minio
-#     networks:
-#       - traefik_proxy
-#       - default
-#     environment:
-#       - MINIO_ACCESS_KEY=${CLOUDS3_ACCESS_KEY}
-#       - MINIO_SECRET_KEY=${CLOUDS3_SECRET_KEY}
-#     volumes: # In the future, this will be moved off of nvme
-#       # - 'minio:/data'
-#       - clouds3:/data
-#     labels:
-#       - "traefik.enable=true"
-#       - "traefik.docker.network=traefik_proxy"
-#       - "traefik.http.routers.clouds3.rule=Host(`clouds3.${DOMAINNAME}`)"
-#       - "traefik.http.routers.clouds3.entrypoints=https"
-#       - "traefik.http.routers.clouds3.tls=true"
-#       - "traefik.http.routers.clouds3.tls.certresolver=cloudflare"
-#       - "traefik.http.services.clouds3.loadbalancer.server.port=9000"
-# volumes:
-#   clouds3:
-#     driver: local
+
+volumes:
+  minio:
