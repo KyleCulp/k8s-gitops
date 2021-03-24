@@ -5,3 +5,4 @@ secretscert.pem
 priv
 priv/
 docker/nginx/certs
+docker/nginx/logs

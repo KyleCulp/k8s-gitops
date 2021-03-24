@@ -5,5 +5,6 @@ resources:
   - bitnami.yaml
   - jetstack.yaml
   - openebs.yaml
-  - traefik.yaml
   - minio.yaml
+  - gemini.yaml
+  - traefik.yaml
