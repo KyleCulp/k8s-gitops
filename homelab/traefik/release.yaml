@@ -62,12 +62,12 @@ spec:
         valueFrom:
           secretKeyRef:
             key: API_EMAIL
-            name: cloudflare
+            name: cloudflare-credentials
       - name: CF_API_KEY
         valueFrom:
           secretKeyRef:
             key: API_KEY
-            name: cloudflare
+            name: cloudflare-credentials
     metrics:
       prometheus:
         enabled: true
