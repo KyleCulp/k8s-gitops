@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: bitwardenrs
+  name: bitwarden
   namespace: services
 spec:
   interval: 1m
@@ -27,7 +27,7 @@ spec:
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
-  name: bitwardenrs
+  name: bitwarden
   namespace: services
 spec:
   routes:
@@ -35,7 +35,7 @@ spec:
       match: Host(`bitwarden.kyleculp.com`)
       services:
         - kind: Service
-          name: bitwardenrs
+          name: bitwarden
           namespace: services
           passHostHeader: true
           weight: 10
