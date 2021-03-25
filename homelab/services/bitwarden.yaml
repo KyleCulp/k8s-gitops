@@ -20,6 +20,7 @@ spec:
         value: America/Chicago
     bitwardenrs:
       domain: "bitwarden.kyleculp.com"
+      signupsAllowed: true
     persistence:
       enabled: true
       size: 1Gi
